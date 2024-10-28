@@ -26,8 +26,8 @@
       "name": "Future Connections Spain SL",
       "position": "Telecom Developer Intern",
       "url": "",
-      "startDate": "March 2023",
-      "endDate": "October 2023",
+      "startDate": "2023 Mar",
+      "endDate": "2023 Oct",
       "summary": "",
       "highlights": [
         "Development of applications and automatization tools",
@@ -40,7 +40,7 @@
       "name": "Carlos III University of Madrid",
       "position": "Academic Support Scholar",
       "url": "",
-      "startDate": "September 2024",
+      "startDate": "2024 Sep",
       "endDate": "",
       "summary": "Research on 'Foundation Models for Wireless Communications,' focusing on pre-training models for signal reconstruction and separation.",
       "highlights": [
@@ -55,7 +55,7 @@
       "url": "",
       "area": "Machine Learning for Health",
       "studyType": "Master’s",
-      "startDate": "September 2024",
+      "startDate": "2024 Sep",
       "endDate": "",
       "score": "",
       "courses": []
@@ -66,7 +66,7 @@
       "url": "",
       "area": "Telecommunications Engineering",
       "studyType": "Master’s",
-      "startDate": "September 2023",
+      "startDate": "2023 Sep",
       "endDate": "",
       "score": "",
       "courses": []
@@ -77,8 +77,8 @@
       "url": "",
       "area": "Telecommunications Engineering",
       "studyType": "Bachelor's",
-      "startDate": "September 2019",
-      "endDate": "July 2023",
+      "startDate": "2019 Sep",
+      "endDate": "2023 Jul",
       "score": "8.34/10",
       "courses": []
     },
@@ -88,8 +88,8 @@
       "url": "",
       "area": "Telecommunications Engineering",
       "studyType": "Year abroad - Erasmus Program",
-      "startDate": "September 2021",
-      "endDate": "June 2022",
+      "startDate": "2021 Sep",
+      "endDate": "2022 Jun",
       "score": "",
       "courses": []
     }

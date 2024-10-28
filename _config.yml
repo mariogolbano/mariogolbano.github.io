@@ -71,10 +71,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: https://github.com/mariogolbano # your GitHub user name
+github_username: mariogolbano # your GitHub user name
 gitlab_username: # your GitLab user name
 kaggle_id: # your kaggle id
-linkedin_username: https://www.linkedin.com/in/mario-golbano-corzo/ # your LinkedIn user name
+linkedin_username: mario-golbano-corzo/ # your LinkedIn user name
 
 
 contact_note: >
