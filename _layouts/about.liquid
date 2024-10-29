@@ -22,15 +22,10 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -38,7 +33,27 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix">
+      <!-- Contenido del About -->
+      <p class="about-paragraph">
+        I’m Mario Golbano Corzo, a Telecommunications Engineer currently based in Madrid. My academic journey began with a Bachelor's in Telecommunications Engineering, and I’m now deepening my expertise through a double Master’s program in Telecommunications Engineering and Machine Learning. This dual focus has given me a robust technical foundation, complemented by hands-on experience in programming, data analytics, and automation, all of which I’ve applied in various research and internship roles.
+      </p>
+      <p class="about-paragraph">
+        Over the past few years, I’ve developed a strong interest in how advanced technologies like AI and machine learning intersect with telecommunications. My current studies allow me to explore this intersection, particularly through projects focused on high-frequency antenna technology and signal processing. I’m passionate about finding ways to enhance telecommunications systems using intelligent solutions and am especially intrigued by the role cloud computing plays in making scalable and efficient architectures possible.
+      </p>
+      <p class="about-paragraph">
+        Looking ahead, I’m eager to apply my skills in an environment that values innovation and problem-solving. I believe cloud technologies and AI have immense potential to reshape the industry, and I’m excited to contribute to solutions that harness this power. With a commitment to continuous learning, I’m ready to make an impact in the fast-evolving world of telecommunications and beyond.
+      </p>
+
+      <!-- Texto adicional y botones -->
+      <p class="about-paragraph">
+        Here, you can find links to my full CV and projects for further details.
+      </p>
+      <div class="about-buttons">
+        <a href="{{ site.baseurl }}/cv" class="btn btn-primary">View CV</a>
+        <a href="{{ site.baseurl }}/projects" class="btn btn-secondary">View Projects</a>
+      </div>
+    </div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}

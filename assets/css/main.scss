@@ -30,3 +30,23 @@ $max-content-width: {{ site.max_width }};
   object-fit: cover; /* Ensures the image is cropped centered */
   width: 100%;
 }
+
+.about-paragraph {
+  max-width: 70%; // ajusta el porcentaje según el ancho que prefieras
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.about-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.about-buttons .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
