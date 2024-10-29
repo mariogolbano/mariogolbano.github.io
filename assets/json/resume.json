@@ -98,51 +98,32 @@
     {
       "name": "Python",
       "level": "Advanced",
-      "icon": "",
-      "keywords": [
-      ]
+      "icon": "fa-brands fa-python",
+      "keywords": []
     },
     {
       "name": "Java",
       "level": "Competent",
-      "icon": "",
-      "keywords": [
-      ]
+      "icon": "fa-brands fa-java",
+      "keywords": []
     },
     {
       "name": "C",
       "level": "Competent",
-      "icon": "",
-      "keywords": [
-      ]
+      "icon": "fa-solid fa-c",
+      "keywords": []
     },
     {
       "name": "SQL",
       "level": "Competent",
-      "icon": "",
-      "keywords": [
-      ]
+      "icon": "fa-solid fa-database",
+      "keywords": []
     },
     {
       "name": "MATLAB",
       "level": "Advanced",
-      "icon": "",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Linux",
-      "level": "Basics",
-      "icon": "",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Competent",
-      "icon": "",
-      "keywords": [
-      ]
+      "icon": "fa-solid fa-chart-line",
+      "keywords": []
     }
   ],
   "languages": [

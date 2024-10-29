@@ -5,7 +5,7 @@ description: "Bachelor's Thesis in Telecommunications Engineering"
 img: assets/img/cover_tfg.png  # Add a cover image in this path
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 pdf_link: /assets/pdf/TFG_MARIO_GOLBANO.pdf  # Place the PDF in the assets/pdf folder
 ---
 
@@ -21,30 +21,33 @@ This thesis is part of the **Telecommunications Engineering** curriculum and add
 
 ## Visualizations and Results
 
-<div class="d-flex justify-content-center align-items-center">
-    <div class="text-center mx-2">
-        {% include figure.liquid loading="eager" path="assets/img/waveguide_design.png" title="WR22 Section Impedance" class="img-fluid rounded z-depth-1" style="width: 60%;" %}
+<div class="row align-items-center">
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/waveguide_design.png" title="WR22 Section Impedance" class="img-fluid rounded z-depth-1" %}
         <div class="caption">Figure 1a: Waveguide WR22 with circular section adaptation design.</div>
     </div>
-    <div class="text-center mx-2">
-        {% include figure.liquid loading="eager" path="assets/img/circular_horn_lens.png" title="Circular Section Impedance" class="img-fluid rounded z-depth-1" style="width: 80%;" %}
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/circular_horn_lens.png" title="Circular Section Impedance" class="img-fluid rounded z-depth-1" %}
         <div class="caption">Figure 1b: Final circular lens design achieving optimal directivity.</div>
-    </div>
-    <div class="text-center mx-2">
-        {% include figure.liquid loading="eager" path="assets/img/Conical_antenna_lens_radiation.png" title="Conical Antenna with Lens and Radiation Pattern" class="img-fluid rounded z-depth-1" style="width: 60%;" %}
-        <div class="caption">Figure 1c: Radiation pattern of the conical antenna with the designed lens.</div>
     </div>
 </div>
 
-<div class="text-center mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/Directivity_comparison.png" title="Directivity Comparison" class="img-fluid rounded z-depth-1" style="width: 60%;" %}
-    <div class="caption">Figure 2: Comparison of directivity between optimized horns with and without the designed lens for different horn lengths.</div>
+<div class="row align-items-center">
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/Conical_antenna_lens_radiation.png" title="Conical Antenna with Lens and Radiation Pattern" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Figure 1c: Radiation pattern of the conical antenna with the designed lens.</div>
+    </div>
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/Directivity_comparison.png" title="Directivity Comparison" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Figure 2: Comparison of directivity between optimized horns with and without the designed lens for different horn lengths.</div>
+    </div>
 </div>
+
 
 
 In this thesis, both the lens design and a waveguide adapter for the antenna were explored to potentially enhance the antenna's directivity while reducing the antenna length. This was aimed at achieving a collimated beam with a flat wavefront, which is essential for accurate antenna characterization. The impedance adaptation from the WR22 waveguide to the circular horn with the lens (Figure 1a) illustrates the progression towards this goal, while the improvements in directivity shown in Figure 1c validate the effectiveness of the design.
   
-## Full Thesis Download
+## Full Thesis
 
 You can download the complete thesis document via the following link:
 
