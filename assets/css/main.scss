@@ -37,6 +37,20 @@ $max-content-width: {{ site.max_width }};
   text-align: justify;
 }
 
+// Estilos para los párrafos del about
+.about-text {
+  text-align: left; // Alinea el texto a la izquierda
+  max-width: 60%; // Ajusta el ancho de los párrafos
+  margin: 0 auto; // Centra el bloque de texto
+  line-height: 1.6; // Espaciado entre líneas
+  margin-bottom: 1.5em; // Espaciado entre párrafos para diferenciar
+
+  p {
+    margin-bottom: 1.2em; // Espaciado adicional entre párrafos
+  }
+}
+
+
 .about-buttons {
   display: flex;
   justify-content: center;
