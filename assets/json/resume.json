@@ -124,6 +124,18 @@
       "level": "Advanced",
       "icon": "fa-solid fa-chart-line",
       "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "Basics",
+      "icon": "fa-brands fa-linux",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "Competent",
+      "icon": "fa-brands fa-git-alt",
+      "keywords": []
     }
   ],
   "languages": [

@@ -4,7 +4,7 @@ title: "Dielectric Lens Design for Collimation of RF Horn Antennas"
 description: "Bachelor's Thesis in Telecommunications Engineering"
 img: assets/img/cover_tfg.png  # Add a cover image in this path
 importance: 1
-category: work
+category: RF
 related_publications: false
 pdf_link: /assets/pdf/TFG_MARIO_GOLBANO.pdf  # Place the PDF in the assets/pdf folder
 ---
