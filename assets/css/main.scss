@@ -32,22 +32,11 @@ $max-content-width: {{ site.max_width }};
 }
 
 .about-paragraph {
-  max-width: 70%; // ajusta el porcentaje según el ancho que prefieras
+  max-width: 80%; // ajusta el porcentaje según el ancho que prefieras
   margin: 0 auto;
-  text-align: justify;
-}
-
-// Estilos para los párrafos del about
-.about-text {
-  text-align: left; // Alinea el texto a la izquierda
-  max-width: 60%; // Ajusta el ancho de los párrafos
-  margin: 0 auto; // Centra el bloque de texto
-  line-height: 1.6; // Espaciado entre líneas
+  text-align: left;
   margin-bottom: 1.5em; // Espaciado entre párrafos para diferenciar
 
-  p {
-    margin-bottom: 1.2em; // Espaciado adicional entre párrafos
-  }
 }
 
 
