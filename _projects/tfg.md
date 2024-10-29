@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Dielectric Lens Design for Collimation of RF Horn Antennas"
-permalink: /projects/tfg
+redirect: /projects/tfg
 description: "Bachelor's Thesis in Telecommunications Engineering"
 img: assets/img/cover_tfg.png  # Add a cover image in this path
 importance: 1

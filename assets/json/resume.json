@@ -167,8 +167,8 @@
       "name": "Foundation Models for Wireless Communications",
       "summary": "In this research line, we propose the design of foundation models for wireless communications, with an innovative focus on the pre-training of models for tasks such as reconstruction and source separation. Our goal is to develop advanced models that are not only capable of reconstructing and separating mixed signals but also possess a discrete and interpretable latent space that enables the performance of other critical tasks in communications.",
       "highlights": ["Wireless signals generation", "Foundation models", "Signal reconstruction"],
-      "startDate": "September 2024",
-      "endDate": "September 2025"
+      "startDate": "2024 Sep",
+      "endDate": "2025 Sep"
     }
   ]
 }
