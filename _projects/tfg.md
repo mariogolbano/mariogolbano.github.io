@@ -23,11 +23,11 @@ This thesis is part of the **Telecommunications Engineering** curriculum and add
 
 <div class="row align-items-center">
     <div class="col-6 text-center mb-3">
-        {% include figure.liquid loading="eager" path="assets/img/waveguide_design.png" title="WR22 Section Impedance" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/waveguide_design.png" title="WR22 Section Impedance" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
         <div class="caption">Figure 1a: Waveguide WR22 with circular section adaptation design.</div>
     </div>
     <div class="col-6 text-center mb-3">
-        {% include figure.liquid loading="eager" path="assets/img/circular_horn_lens.png" title="Circular Section Impedance" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/circular_horn_lens.png" title="Circular Section Impedance" class="img-fluid rounded z-depth-1" style="width: 110%;" %}
         <div class="caption">Figure 1b: Final circular lens design achieving optimal directivity.</div>
     </div>
 </div>
@@ -38,7 +38,7 @@ This thesis is part of the **Telecommunications Engineering** curriculum and add
         <div class="caption">Figure 1c: Radiation pattern of the conical antenna with the designed lens.</div>
     </div>
     <div class="col-6 text-center mb-3">
-        {% include figure.liquid loading="eager" path="assets/img/Directivity_comparison.png" title="Directivity Comparison" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Directivity_comparison.png" title="Directivity Comparison" class="img-fluid rounded z-depth-1" style="width: 110%;" %}
         <div class="caption">Figure 2: Comparison of directivity between optimized horns with and without the designed lens for different horn lengths.</div>
     </div>
 </div>
