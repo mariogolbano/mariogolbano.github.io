@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: {{ site.max_width }};
+$max-content-width: calc({{ site.max_width }} * 0.9);
 
 @import
   "variables",
@@ -32,7 +32,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 .about-paragraph {
-  max-width: 80%; // ajusta el porcentaje según el ancho que prefieras
+  max-width: 100%; // ajusta el porcentaje según el ancho que prefieras
   margin: 0 auto;
   text-align: left;
   margin-bottom: 1.5em; // Espaciado entre párrafos para diferenciar

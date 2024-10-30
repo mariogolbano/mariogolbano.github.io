@@ -18,8 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m Mario Golbano Corzo, a Telecommunications Engineer based in Madrid. Currently, I’m pursuing a double Master’s in Telecommunications Engineering and Machine Learning, combining a solid technical foundation with a passion for ML/AI and next-generation communication technologies. My studies and experiences have given me hands-on expertise in data analytics, automation, and developing solutions within telecommunications.
+I'm Mario Golbano Corzo, a Telecommunications Engineer based in Madrid, currently expanding my expertise through a double Master’s in Telecommunications Engineering and Machine Learning. My academic and practical experiences have given me a strong foundation in programming, data analytics, and automation, skills I've applied across various research and internship roles.
 
-Over the past few years, I’ve developed a strong interest in how advanced technologies like AI and machine learning intersect with telecommunications. My current studies allow me to explore this intersection, particularly through projects focused on high-frequency antenna technology and signal processing.
-
-Looking ahead, I’m eager to apply my skills in an environment that values innovation and problem-solving. I’m ready to make an impact in the fast-evolving world of telecommunications and beyond.
+My primary interests lie in AI, machine learning, and emerging technologies like cloud computing, all while drawing on a strong foundation in communications and signal processing. I'm driven by the potential these technologies hold to transform industries, making systems smarter, more efficient, and scalable. With a commitment to continuous learning, I’m ready to make an impact in the fast-evolving world of technology and contribute to solutions that harness the power of innovation.
