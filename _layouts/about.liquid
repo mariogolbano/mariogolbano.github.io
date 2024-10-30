@@ -40,6 +40,12 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Custom CV and Projects buttons -->
+    <div class="about-buttons mb-4 text-center">
+      <a href="{{ site.baseurl }}/cv" class="btn btn-primary">View CV</a>
+      <a href="{{ site.baseurl }}/projects" class="btn btn-secondary ml-2">View Projects</a>
+    </div>
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
