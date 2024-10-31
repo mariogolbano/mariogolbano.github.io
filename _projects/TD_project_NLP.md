@@ -1,16 +1,15 @@
 ---
 layout: page
-title: Analysis of Research Projects
+title: Analysis of Research Projects with NLP techniques
 description: Developing a robust pipeline for data preprocessing and text vectorization for classification tasks.
 img: assets/img/header_NLP_project.png 
 importance: 1
 category: ML/IA
 related_publications: false
+pdf_link: /assets/pdf/NLP_project.pdf  # Place the PDF in the assets/pdf folder
 ---
-
+## Abstract
 This project focuses on analyzing and classifying research project descriptions through various Natural Language Processing (NLP) techniques. The main goal is to process and classify text data to extract meaningful insights from a large dataset of research projects.
-
-## Project Overview
 
 Our approach involves several key steps:
 
@@ -26,12 +25,9 @@ Our approach involves several key steps:
 3. **Classification Models**:
    Using the preprocessed and vectorized data, we trained classification models, including Random Forest (via Scikit-learn) for traditional vectorizations and fine-tuned BERT for deep learning-based classification. These models were evaluated to determine the most effective approach for categorizing research projects.
 
-## Insights
-
-- **Comparative Analysis**: TFIDF, Word2Vec, and BERT were compared for performance. Word2Vec showed improved context-based classification over TFIDF, while BERT provided the highest accuracy due to its robust handling of semantic relationships.
-- **Use Cases**: The pipeline allows researchers to identify projects related to specific themes or keywords efficiently.
-
-## Visuals
+---
+#### Insights
+TFIDF, Word2Vec, and BERT were compared for performance. Word2Vec showed improved context-based classification over TFIDF, while BERT provided the highest accuracy due to its robust handling of semantic relationships.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -42,8 +38,26 @@ Our approach involves several key steps:
     Comparison of classification results across different vectorization methods.
 </div>
 
+The code in this project is designed for NLP analysis of research summaries but can be adapted for other domains by modifying key steps in the data preprocessing and vectorization process:
 
+1. **Adjust Data Preprocessing**: 
+Adapt the code to accommodate different fields or text structures and adjust tokenization, stopword removal, or text normalization settings based on the characteristics of the new text data
 
+2. **Update Vectorization and Embedding Methods**:
+Select embeddings relevant to the new context, such as **BioBERT** for biomedical text or **SciBERT** for scientific literature.
+
+3. **Revise Classification and Clustering Models**:
+Adapt or retrain classification algorithms based on the new data categories. For example, in a healthcare application, categories might include disease types or treatment methods.
+---
 This project exemplifies the integration of data preprocessing, vectorization, and classification to achieve efficient categorization of large-scale textual data.
-
+---
 This project was carried out in collaboration with [Elena Almagro](https://www.linkedin.com/in/elena-almagro-azor-a06942217/) and [Juan Muñoz](https://www.linkedin.com/in/juan-munoz-villalon/).
+---
+## Full Report
+You can download the complete report document via the following link:
+
+[Download Full Report PDF]({{ page.pdf_link }})
+---
+## GitHub Repository
+You can find the Python notebook for this project, with its results and the whole process on [GitHub](https://github.com/mariogolbano/Research-projects-analysis-NLP/tree/main)
+
