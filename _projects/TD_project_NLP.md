@@ -7,6 +7,7 @@ importance: 1
 category: ML/IA
 related_publications: false
 pdf_link: /assets/pdf/NLP_project.pdf  # Place the PDF in the assets/pdf folder
+
 ---
 ## Abstract
 This project focuses on analyzing and classifying research project descriptions through various Natural Language Processing (NLP) techniques. The main goal is to process and classify text data to extract meaningful insights from a large dataset of research projects.
@@ -48,15 +49,19 @@ Select embeddings relevant to the new context, such as **BioBERT** for biomedica
 
 3. **Revise Classification and Clustering Models**:
 Adapt or retrain classification algorithms based on the new data categories. For example, in a healthcare application, categories might include disease types or treatment methods.
+
 ---
 This project exemplifies the integration of data preprocessing, vectorization, and classification to achieve efficient categorization of large-scale textual data.
+
 ---
 This project was carried out in collaboration with [Elena Almagro](https://www.linkedin.com/in/elena-almagro-azor-a06942217/) and [Juan Muñoz](https://www.linkedin.com/in/juan-munoz-villalon/).
+
 ---
 ## Full Report
 You can download the complete report document via the following link:
 
 [Download Full Report PDF]({{ page.pdf_link }})
+
 ---
 ## GitHub Repository
 You can find the Python notebook for this project, with its results and the whole process on [GitHub](https://github.com/mariogolbano/Research-projects-analysis-NLP/tree/main)
