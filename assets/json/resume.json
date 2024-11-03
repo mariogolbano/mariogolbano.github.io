@@ -126,15 +126,27 @@
       "keywords": []
     },
     {
+      "name": "Git",
+      "level": "Competent",
+      "icon": "fa-brands fa-git-alt",
+      "keywords": []
+    },
+    {
       "name": "Linux",
       "level": "Basics",
       "icon": "fa-brands fa-linux",
       "keywords": []
     },
     {
-      "name": "Git",
-      "level": "Competent",
-      "icon": "fa-brands fa-git-alt",
+      "name": "HTML",
+      "level": "Basics",
+      "icon": "fa-brands fa-html5",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "Basics",
+      "icon": "fa-brands fa-js",
       "keywords": []
     }
   ],
