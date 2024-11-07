@@ -75,8 +75,17 @@ Beyond imaging, the autoencoder's denoising capabilities present valuable applic
 
 In summary, this project not only provides a viable solution for image denoising but also paves the way for broader applications, particularly in enhancing the quality and clarity of data in both visual and communication fields.
 
+---
+This project was carried out in collaboration with [Elena Almagro](https://www.linkedin.com/in/elena-almagro-azor-a06942217/) and [Juan Muñoz](https://www.linkedin.com/in/juan-munoz-villalon/).
 
 ---
-
 ## Full Report
-For detailed methodology and results, please refer to the [Full Report PDF]({{ page.pdf_link }}).
+You can download the complete report document via the following link:
+
+[Download Full Report PDF]({{ page.pdf_link }})
+
+---
+## GitHub Repository
+You can find the Python notebook for this project, with its results and the whole process on [GitHub](https://github.com/mariogolbano/denoising-autoencoder)
+
+
