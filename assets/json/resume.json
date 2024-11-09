@@ -102,6 +102,12 @@
       "keywords": []
     },
     {
+      "name": "MATLAB",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": []
+    },
+    {
       "name": "Java",
       "level": "Competent",
       "icon": "fa-brands fa-java",
@@ -117,12 +123,6 @@
       "name": "SQL",
       "level": "Competent",
       "icon": "fa-solid fa-database",
-      "keywords": []
-    },
-    {
-      "name": "MATLAB",
-      "level": "Advanced",
-      "icon": "fa-solid fa-chart-line",
       "keywords": []
     },
     {
@@ -167,7 +167,7 @@
       "icon": ""
     }
   ],
-  "projects": [
+  "research projects": [
     {
       "name": "Foundation Models for Wireless Communications",
       "summary": "In this research line, we propose the design of foundation models for wireless communications, with an innovative focus on the pre-training of models for tasks such as reconstruction and source separation. Our goal is to develop advanced models that are not only capable of reconstructing and separating mixed signals but also possess a discrete and interpretable latent space that enables the performance of other critical tasks in communications.",
