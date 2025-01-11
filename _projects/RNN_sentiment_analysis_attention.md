@@ -30,12 +30,13 @@ The first model uses a basic **RNN with LSTM cells** to process sequences of wor
 - **LogSoftmax Activation**: Converts logits to log probabilities for classification.
 
 #### Results
+The RoC curve obtained is shown below.
 <div class="row justify-content-sm-center">
     <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/roc_curve.png" title="RoC Curve for the RNN model without Attention Mechanism" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-- **AUC for RNN without Attention**: 0.92
+The **AUC for RNN without Attention** is 0.92. This is a very good value at first.
 
 ---
 
@@ -73,12 +74,13 @@ In addition to the RNN, the project includes an optional experiment using a **Mu
 
 
 #### Results
+The RoC curve obtained is shown below.
 <div class="row justify-content-sm-center">
     <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/roc_curve_MLP.png" title="RoC Curve for the MLP classifier" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-- **AUC for RNN without Attention**: 0.76
+The **AUC for RNN without Attention** is 0.76 which is shows a much poorer performance than the RNN model, which was expected. 
 
 ---
 
@@ -93,13 +95,13 @@ The second model incorporates an **attention mechanism**, which allows the netwo
 
 
 #### Results
-#### Results
+The RoC Curve obtained is shown below.
 <div class="row justify-content-sm-center">
     <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/roc_curve_Attention.png" title="RoC Curve for the RNN model with Attention Mechanism" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-- **AUC for RNN without Attention**: 0.95
+The **AUC for RNN without Attention** is 0.95, which has improved from the model without Attention.
 
 ---
 
