@@ -31,15 +31,56 @@ The **LeNet-5** model was adapted for binary classification to distinguish betwe
 - Two max-pooling layers.
 - Three fully connected layers with a **sigmoid activation** for binary classification.
 
-| Layer Type          | Output Shape | Activation Function |
-|---------------------|--------------|---------------------|
-| Conv Layer 1        | (6, 28, 28)  | ReLU                |
-| Max Pooling Layer 1 | (6, 14, 14)  | -                   |
-| Conv Layer 2        | (16, 10, 10) | ReLU                |
-| Max Pooling Layer 2 | (16, 5, 5)   | -                   |
-| Fully Connected 1   | 120          | ReLU                |
-| Fully Connected 2   | 84           | ReLU                |
-| Output Layer        | 1            | Sigmoid             |
+<div style="display: flex; justify-content: center;">
+    <table style="border-collapse: collapse; width: 60%; text-align: center;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #ddd; padding: 8px;">Layer Type</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Output Shape</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Activation Function</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Conv Layer 1</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">(6, 28, 28)</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">ReLU</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Max Pooling Layer 1</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">(6, 14, 14)</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">-</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Conv Layer 2</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">(16, 10, 10)</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">ReLU</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Max Pooling Layer 2</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">(16, 5, 5)</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">-</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Fully Connected 1</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">120</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">ReLU</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Fully Connected 2</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">84</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">ReLU</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Output Layer</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">1</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">Sigmoid</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
 
 The model's performance was evaluated using:
 
@@ -57,9 +98,24 @@ Key modifications:
 - Replaced the last classification layer to adapt the model for binary classification.
 - Applied **temperature scaling** to calibrate the model’s predictions.
 
-| Model Name  | Layers    | Parameters |
-|-------------|-----------|------------|
-| DenseNet-121 | 121       | ~7 million |
+<div style="display: flex; justify-content: center;">
+    <table style="border-collapse: collapse; width: 50%; text-align: center;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #ddd; padding: 8px;">Model Name</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Layers</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Parameters</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">DenseNet-121</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">121</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">~7 million</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ---
 
@@ -95,10 +151,27 @@ The reliability diagram highlights the difference between the predicted probabil
 ## Dataset
 The project uses a filtered version of the **CIFAR-10 dataset**, containing images of **birds** and **cats**. The dataset is preprocessed to include only these two categories, and the images are normalized for training.
 
-| Class | Label |
-|-------|-------|
-| Bird  | 0     |
-| Cat   | 1     |
+<div style="display: flex; justify-content: center;">
+    <table style="border-collapse: collapse; width: 30%; text-align: center;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #ddd; padding: 8px;">Class</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Label</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Bird</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">0</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Cat</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">1</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 
 The dataset can be downloaded from the following link:
 
@@ -116,6 +189,6 @@ You can download the complete report document via the following link:
 
 ---
 ## GitHub Repository
-You can find the Python notebook for this project, with its results and the whole process on [GitHub](https://github.com/mariogolbano/Research-projects-analysis-NLP/tree/main)
+You can find the Python notebook for this project, with its results and the whole process on [GitHub](https://github.com/mariogolbano/CNNs_calibration)
 
 
