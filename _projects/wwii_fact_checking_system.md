@@ -2,7 +2,7 @@
 layout: page
 title: WWII Fact-Checking RAG System
 description: Development of a Retrieval-Augmented Generation (RAG) system to verify the veracity of World War II-related statements using a specific corpus and large language models.
-img: assets/img/wwii_fact_checking_header.png  # Path for header image
+img: assets/img/wwii_fact_check_cover.png  # Path for header image
 importance: 1
 category: ML/AI
 related_publications: false
@@ -11,6 +11,8 @@ related_publications: false
 ## Abstract
 
 This project focuses on developing a Retrieval-Augmented Generation (RAG) system designed to automatically verify the veracity of statements related to World War II. By integrating semantic search techniques with large language models (LLMs), the system retrieves relevant information from a curated corpus and employs the LLM to assess the truthfulness of the input statements. The project was undertaken as part of a master's program in collaboration with my colleagues, aiming to contribute to the field of automated fact-checking.
+
+Further information about the project, along with the actual project can be found at this [GitHub Repository](https://github.com/Robertoguisasola/Fact-cheking_system_NLP).
 
 ## Key Components
 
