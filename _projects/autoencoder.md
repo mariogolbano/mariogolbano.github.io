@@ -4,7 +4,7 @@ title: Deep Autoencoder for Denoising Noisy Images
 description: Development of a deep autoencoder model to reconstruct clean images from noisy inputs, improving image quality in datasets like MNIST and FMNIST.
 img: assets/img/autoencoder_denoising_header.png  # Path for header image
 importance: 1
-category: ML/IA
+category: ML/AI
 related_publications: false
 pdf_link: /assets/pdf/autoencoder.pdf  # Link to the full project report
 ---

@@ -4,7 +4,7 @@ title: Analysis of Research Projects with NLP techniques
 description: Developing a robust pipeline for data preprocessing and text vectorization for classification tasks.
 img: assets/img/header_NLP_project.png 
 importance: 1
-category: ML/IA
+category: ML/AI
 related_publications: false
 pdf_link: /assets/pdf/NLP_project.pdf  # Place the PDF in the assets/pdf folder
 

@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [ML/IA, RF]
+display_categories: [ML/AI, RF]
 horizontal: false
 ---
 
