@@ -29,46 +29,57 @@ Further information about the project along with all the developed framework can
 ## Some Images from Framework
 
 <div class="row align-items-center">
-    <figure class="col-6 text-center mb-3">
-        <img src="assets/img/MATLAB_GUI_gen (1).png" alt="MATLAB GUI for signal generation" class="img-fluid rounded z-depth-1 img-70">
-        <figcaption>Figure 1: MATLAB GUI for selecting modulations or technologies.</figcaption>
-    </figure>
-    <figure class="col-6 text-center mb-3">
-        <img src="assets/img/MATLAB_GUI_gen (2).png" alt="Configurable Parameters for WiFi VHT" class="img-fluid rounded z-depth-1 img-110">
-        <figcaption>Figure 2: Configurable Parameters for WiFi VHT.</figcaption>
-    </figure>
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/waveguide_design.png" title="WR22 Section Impedance" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
+        <div class="caption">Figure 1a: Waveguide WR22 with circular section adaptation design.</div>
+    </div>
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/circular_horn_lens.png" title="Circular Section Impedance" class="img-fluid rounded z-depth-1" style="width: 110%;" %}
+        <div class="caption">Figure 1b: Final circular lens design achieving optimal directivity.</div>
+    </div>
 </div>
 
 <div class="row justify-content-center">
-    <figure class="col-12 text-center mb-3">
-        <img src="assets/img/MATLAB_GUI_gen (3).png" alt="Configurable Parameters for OFDM" class="img-fluid rounded z-depth-1 img-110">
-        <figcaption>Figure 3: Configurable Parameters for OFDM.</figcaption>
-    </figure>
+    <div class="col-12 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/MATLAB_GUI_gen_1.png" title="MATLAB GUI for signal generation" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
+        <div class="caption">Figure 2: MATLAB GUI for selecting modulations or technologies.</div>
+    </div>
 </div>
 
 <div class="row align-items-center">
-    <figure class="col-6 text-center mb-3">
-        <img src="assets/img/interf_sim.png" alt="Interferences Simulation" class="img-fluid rounded z-depth-1 img-70">
-        <figcaption>Figure 4: Python Notebook for simulating interferences from dataset.</figcaption>
-    </figure>
-    <figure class="col-6 text-center mb-3">
-        <img src="assets/img/interf_sim_wave.png" alt="Interference Waveform Simulation" class="img-fluid rounded z-depth-1 img-110">
-        <figcaption>Figure 5: Interference Waveform Simulation.</figcaption>
-    </figure>
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/MATLAB_GUI_gen_2.png" title="Configurable Parameters for WiFi VHT" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
+        <div class="caption">Figure 3: Configurable Parameters for WiFi VHT.</div>
+    </div>
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/MATLAB_GUI_gen_3.png" title="Configurable Parameters for OFDM" class="img-fluid rounded z-depth-1" style="width: 110%;" %}
+        <div class="caption">Figure 4: Configurable Parameters for OFDM.</div>
+    </div>
 </div>
 
 <div class="row justify-content-center">
-    <figure class="col-12 text-center mb-3">
-        <img src="assets/img/interf_sim_spec.png" alt="Interference Spectrum Simulation" class="img-fluid rounded z-depth-1 img-110">
-        <figcaption>Figure 6: Interference Spectrum Simulation.</figcaption>
-    </figure>
+    <div class="col-12 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/interf_sim.png" title="Interferences Simulation" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
+        <div class="caption">Figure 5: Python Notebook for simulating interferences from dataset.</div>
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/interf_sim_wave.png" title="Interference Waveform Simulation" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
+        <div class="caption">Figure 6: Interference Waveform Simulation.</div>
+    </div>
+    <div class="col-6 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/interf_sim_spec.png" title="Interference Spectrum Simulation" class="img-fluid rounded z-depth-1" style="width: 110%;" %}
+        <div class="caption">Figure 7: Interference Spectrum Simulation.</div>
+    </div>
 </div>
 
 <div class="row justify-content-center">
-    <figure class="col-12 text-center mb-3">
-        <img src="assets/img/MATLAB_GUI_eval.png" alt="MATLAB GUI for evaluation of recovered signals" class="img-fluid rounded z-depth-1 img-150">
-        <figcaption>Figure 7: MATLAB GUI for evaluation of recovered signals.</figcaption>
-    </figure>
+    <div class="col-12 text-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/MATLAB_GUI_eval.png" title="MATLAB GUI for evaluation of recovered signals" class="img-fluid rounded z-depth-1" style="width: 150%;" %}
+        <div class="caption">Figure 8: MATLAB GUI for evaluation of recovered signals.</div>
+    </div>
 </div>
 
 

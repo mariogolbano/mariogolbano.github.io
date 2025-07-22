@@ -25,12 +25,12 @@ In the following images we can see how the bounding box keeps track of the objec
 
 <div class="row align-items-center">
     <figure class="col-6 text-center mb-3">
-        <img src="assets/img/particle_filter1.png" alt="Particle Filter Initialization" class="img-fluid rounded z-depth-1 img-70">
+        {% include figure.liquid loading="eager" path="assets/img/particle_filter1.png" title="Particle Filter Initialization" class="img-fluid rounded z-depth-1 img-70" %}
         <figcaption>Figure 1: Ground Truth Box (green) vs Predicted Object Box (Blue) at start.</figcaption>
     </figure>
     <figure class="col-6 text-center mb-3">
-        <img src="assets/img/particle_filter2.png" alt="Tracking Results" class="img-fluid rounded z-depth-1 img-110">
-        <figcaption>Figure 2: ObjGround Truth Box (green) vs Predicted Object Box (Blue) tracking.</figcaption>
+        {% include figure.liquid loading="eager" path="assets/img/particle_filter2.png" title="Tracking Results" class="img-fluid rounded z-depth-1 img-110" %}
+        <figcaption>Figure 2: Ground Truth Box (green) vs Predicted Object Box (Blue) tracking.</figcaption>
     </figure>
 </div>
 
