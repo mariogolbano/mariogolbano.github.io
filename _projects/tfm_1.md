@@ -22,6 +22,10 @@ The research encompasses:
 
 The proposed model demonstrates significant improvements in signal recovery accuracy compared to traditional methods, particularly in scenarios with high interference.
 
+Further information about the project along with all the developed framework can be accessed at:
+[Thesis GitHub Repository](https://github.com/mariogolbano/TFM-foundation-model-wireless-signals)
+
+
 ## Some Images from Framework
 
 <div class="row align-items-center">
