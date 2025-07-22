@@ -3,7 +3,7 @@ layout: page
 title: Calibration of Convolutional Neural Networks (CNNs) using Temperature Scaling
 description: Exploring the calibration of CNNs through temperature scaling to improve model reliability in binary classification tasks.
 img: assets/img/header_CNN_calibration.png  # Update this with your header image path
-importance: 1
+importance: 5
 category: ML/AI
 related_publications: false
 pdf_link: /assets/pdf/CNN_calibration.pdf  # Place the project report in assets/pdf
