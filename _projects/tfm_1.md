@@ -2,10 +2,10 @@
 layout: page
 title: "A Data-Driven Framework for Wireless Communications"
 description: "Master’s Thesis in Telecommunications Engineering"
-img: assets/img/cover_tfm.png  # Add a cover image in this path
+img: assets/img/tfm_portada.png  # Add a cover image in this path
 importance: 1
 category: RF
-related_publications: true
+related_publications: false
 pdf_link: /assets/pdf/Master_thesis_Mario_Golbano.pdf  # Place the PDF in the assets/pdf folder
 ---
 
@@ -21,7 +21,6 @@ The research encompasses:
 - **Signal Recovery Model**: Design and training of a U-Net neural network for recovering signals affected by interferences.
 
 The proposed model demonstrates significant improvements in signal recovery accuracy compared to traditional methods, particularly in scenarios with high interference.
-
 
 ## Some Images from Framework
 
