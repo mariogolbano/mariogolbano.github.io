@@ -3,7 +3,7 @@ layout: page
 title: "Visual Object Tracking Using Particle Filter"
 description: "Optimizing a particle filter for visual object tracking using advanced color, texture, and shape descriptors to improve accuracy in complex scenarios."
 img: assets/img/object_tracking_cover.png  # Add a cover image in this path
-importance: 1
+importance: 2
 category: ML/AI
 related_publications: false
 pdf_link: /assets/pdf/computer_challenge.pdf  # Link to the PDF file
