@@ -28,8 +28,8 @@ The proposed **HT-DEMUCS model** demonstrates a significant improvement in inter
 Further details and resources can be accessed via the project’s GitHub repository:
 [HT-DEMUCS GitHub Repository](https://github.com/mariogolbano/HTDEMUCS-for-interference-mitigation)
 
-<div class="row align-items-center">
-    <div class="col-6 text-center mb-3">
+<div class="row justify-content-center align-items-center">
+    <div class="col-12 text-center mb-3">
         {% include figure.liquid loading="eager" path="assets/img/ht-demucs-arch.png" title="HT-DEMUCS Model Architecture" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
         <div class="caption">Figure 1: HT-DEMUCS Model Architecture for interference mitigation.</div>
     </div>
