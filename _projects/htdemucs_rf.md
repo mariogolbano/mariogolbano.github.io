@@ -3,7 +3,7 @@ layout: page
 title: "HT-DEMUCS for Interference Mitigation"
 description: "Master’s Thesis in Machine Learning: On the Generalization of Deep Neural Network-Based Interference Rejection to Unseen Signal Constellations"
 img: assets/img/htdemucs-cover.png  # Add a cover image in this path
-importance: 2
+importance: 1
 category: RF
 related_publications: false
 pdf_link: /assets/pdf/ML_MarioGolbanoCorzo_Thesis.pdf  # Place the PDF in the assets/pdf folder
@@ -29,10 +29,8 @@ Further details and resources can be accessed via the project’s GitHub reposit
 [HT-DEMUCS GitHub Repository](https://github.com/mariogolbano/HTDEMUCS-for-interference-mitigation)
 
 <div class="row align-items-center">
-    <div class="col-6 text-center mb-3">
-        {% include figure.liquid loading="eager" path="assets/img/ht-demucs-arch.png" title="HT-DEMUCS Model Architecture" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
-        <div class="caption">Figure 1: HT-DEMUCS Model Architecture for interference mitigation.</div>
-    </div>
+    {% include figure.liquid loading="eager" path="assets/img/ht-demucs-arch.png" title="HT-DEMUCS Model Architecture" class="img-fluid rounded z-depth-1" style="width: 70%;" %}
+    <div class="caption">Figure 1: HT-DEMUCS Model Architecture for interference mitigation.</div>
 </div>
 
 <div class="row align-items-center">
